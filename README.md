@@ -30,4 +30,16 @@ Creat an EC2 instance in AWS, name it anything you want. Go to the AMI, in the s
 Scroll down to instance type, hit the drop down and choose t2.xlarge. Scroll down to key pair and click create pair. Choose a name then click rsa and .pem, the file will donwload to your download folder automatically.
 ![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-04%20165600.png?raw=true)
 
-Scroll down to configure storage and bump it to 128 from 30. Click launch instance, once instance has started click on it then click connect, click SSH Client, then copy the example ssh command and paste it in your downloads folder into your terminal.
+Scroll down to configure storage and bump it to 128 from 30. Click launch instance, once instance has started click on it then click connect, click SSH Client, then copy the example ssh command and paste it in your downloads folder into your terminal. If your root directory changes, then you were successful.
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-04%20184807.png?raw=true)
+
+In your terminal run the following commands. These commands will find and install the latest versions of any dependencies on your instance, and install git.
+<pre> bash sudo apt update -y 
+ sudo apt upgrade -y 
+ sudo apt install git  
+</pre>
+
+In your terminal run the following command below. This command will clone the tpot repository and give you access to the resources to launch your honeypots.
+<pre>
+ git clone https://github.com/telekom-security/tpotce.git
+</pre>
