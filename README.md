@@ -23,10 +23,5 @@ This project focused on deploying the T-Pot honeypot platform on an AWS EC2 inst
 - Linux utilities (ss, htpasswd, journalctl, etc.): For diagnostics and configuration
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
+Creat an EC2 instance in AWS, name it anything you want. Go to the AMI in the search bar type Debian and select the option shown.
