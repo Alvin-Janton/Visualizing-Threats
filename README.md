@@ -27,3 +27,6 @@ This project focused on deploying the T-Pot honeypot platform on an AWS EC2 inst
 Creat an EC2 instance in AWS, name it anything you want. Go to the AMI, in the search bar type Debian and select the option shown.
 ![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-04%20165144.png?raw=true)
 
+Scroll down to instance type, hit the drop down and choose t2.xlarge. Scroll down to key pair and click create pair. Choose a name then click rsa and .pem, the file will donwload to your download folder automatically.
+
+
