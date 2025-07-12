@@ -62,5 +62,4 @@ After running the installation script run the following command to reboot your s
 </pre>
 
 In your EC2 instance click on the instance ID then scroll down and click on the Security tab. Scroll down to security groups and click on the launch wizard link, this will take you to the launch wizard page. In the launch wizard page scroll down and click "Edit inbound rules", in this page you're going to create three new rules. For the first rule click on type and select "Custom TCP", for port range enter 64295, this is the port that you'll use to connect to your instance., and for source select "My IP". For rule two do the same thing but change the port number to 64297, this is the port to access your dashboards. For the final rule make the port range 0-64000 to allow attackers access to your honeypots, and make the source "Anywhere-IPv4". These rules will allow attackers to interact with the honeypots while keeping your instance safe, and still allowing you to log in.
-
-
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot_4-7-2025_21951_us-east-1.console.aws.amazon.com.jpeg?raw=true)
