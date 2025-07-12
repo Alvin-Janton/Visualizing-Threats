@@ -1,0 +1,24 @@
+# Troubleshooting Guide for Visualizing Threats
+
+## 1. T-Pot Web Interface Not Loading
+
+### ✅ Check EC2 Security Group
+- Ensure ports `64295` (SSH) and `64297` (Kibana) are open to your IP.
+- Review inbound rules in the Security Group settings.
+
+### ✅ Check Public IPv4 and URL Format
+- Use the public IP from EC2 with `:64297` appended. Example:  
+  `https://your-public-ip:64297`
+
+### ✅ Bypass SSL Warning
+- On browser warning page, click **Advanced** → **Proceed to site**.
+
+---
+
+## 2. Can't Log In to Kibana
+
+### ✅ Recheck Install Command
+- Confirm correct username/password were passed in the install command:
+```bash
+./install.sh -s -t h -u yourUsername -p yourPassword
+
