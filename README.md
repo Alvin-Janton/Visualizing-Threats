@@ -78,5 +78,8 @@ Once you log into your instance go backt to AWS and click on your EC2 instance, 
 </pre>
 
 At the warning page, click "Advanced" then click continue to website. Enter your username and password that you used earlier for the install script and login, this should take you to the TPOT website.
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-06-26%20171503.png?raw=true)
+
+Click on Kibana to access your dashboard and here you can get visual images on data regarding all of your honeypots like the number of attacks, a dynamic attack map, source IPs, operating system and much more.
 
 
