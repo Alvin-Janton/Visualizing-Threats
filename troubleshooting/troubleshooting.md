@@ -17,6 +17,29 @@
 - Docker containers like Kibana, ElasticSearch, and nginx may have failed to deply.
 - Run the command below to see what docker containers are running, look for any failed, or starting.
 <pre>
+  sudo docker ps -a
+</pre>
+
+If you see any failed or starting containers run
+<pre>
+  sudo docker logs <container-name>
+</pre>
+
+If you get an error, or get no output the container likely hasn't started, run the command below to start the container
+<pre>
+  sudo docker restart <container-name> 
+    or
+  Sudo docker-compse -d <container-name>
+</pre>
+
+Once you verify that ElasticSearch, Kibana, and nginx are working run the command below to make sure there are no port conflicts on port 25
+<pre>
+  sudo ss -tuln | grep :<25>
+</pre>
+
+If you see anything except what is shown in the image below, shut the application down, and restart docker.
+
+
 
 
 ## 2. Can't Log In to Kibana
