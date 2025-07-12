@@ -81,5 +81,7 @@ At the warning page, click "Advanced" then click continue to website. Enter your
 ![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-06-26%20171503.png?raw=true)
 
 Click on Kibana to access your dashboard and here you can get visual images on data regarding all of your honeypots like the number of attacks, a dynamic attack map, source IPs, operating system and much more.
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-06-26%20170517.png?raw=true)
+
 
 
