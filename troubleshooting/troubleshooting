@@ -14,8 +14,10 @@
 - On browser warning page, click **Advanced** → **Proceed to site**.
 
 ### ✅ Check docker containers
+- Docker containers like Kibana, ElasticSearch, and nginx may have failed to deply.
+- Run the command below to see what docker containers are running, look for any failed, or starting.
+<pre>
 
----
 
 ## 2. Can't Log In to Kibana
 
