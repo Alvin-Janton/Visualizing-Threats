@@ -16,11 +16,11 @@ This project focused on deploying the T-Pot honeypot platform on an AWS EC2 inst
 
 ### Tools Used
 
-- T-Pot: Honeypot framework bundling multiple honeypots with centralized logging.
-- Docker & Docker Compose: For orchestrating containerized honeypots and services.
-- Kibana: To visualize attack logs and trends.
-- AWS EC2: Cloud infrastructure used for deployment and testing
-- Linux utilities (ss, htpasswd, journalctl, etc.): For diagnostics and configuration
+- **T-Pot**: Honeypot framework bundling multiple honeypots with centralized logging.
+- **Docker & Docker Compose**: For orchestrating containerized honeypots and services.
+- **Kibana**: To visualize attack logs and trends.
+- **AWS EC2**: Cloud infrastructure used for deployment and testing
+- **Linux utilities (ss, htpasswd, journalctl, etc.)**: For diagnostics and configuration
 
 ## Steps
 
