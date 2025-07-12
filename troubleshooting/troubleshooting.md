@@ -39,7 +39,7 @@ Once you verify that ElasticSearch, Kibana, and nginx are working run the comman
 
 If you see anything except what is shown in the image below, shut the application down, and restart docker.
 
-
+https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-12%20155452.png
 
 
 ## 2. Can't Log In to Kibana
