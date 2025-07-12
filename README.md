@@ -89,3 +89,4 @@ You can click on the search bar and enter the name of specific honeypots that yo
 ![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-06-26%20172321.png?raw=true)
 
 For the final step in this project, go to your EC2 instances dashboard click on your instance and select terminate to delete your instance.
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-12%20154534.png?raw=true)
