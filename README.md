@@ -69,3 +69,14 @@ Go back to your terminal and enter the ssh command to log into your instance. At
  -p 64295
 </pre>
 
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-04%20211131.png?raw=true)
+
+Once you log into your instance go backt to AWS and click on your EC2 instance, click on your Public IPv4 address and open it in a new tab. At the end of the url add the port number 64297 to access the website login page.
+<pre>
+ Enter at the end of the url
+ :64297
+</pre>
+
+At the warning page, click "Advanced" then click continue to website. Enter your username and password that you used earlier for the install script and login, this should take you to the TPOT website.
+
+
