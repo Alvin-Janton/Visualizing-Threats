@@ -43,3 +43,24 @@ In your terminal run the following command below. This command will clone the tp
 <pre>
  git clone https://github.com/telekom-security/tpotce.git
 </pre>
+
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-04%20205138.png?raw=true)
+
+In your terminal enter the command below to change into your tpot folder.
+<pre>
+ cd tpotce
+</pre>
+
+Then run the following command below to execute the installation script. The -u and -p commands are for your username and password to login into Kibana, you can change them to whatever you'd like. If you get any input prompts just type "y" to continue or press the "Enter".
+<pre>
+ ./install.sh -s -t h -u tsec -p securePassword123
+</pre>
+
+After running the installation script run the following command to reboot your system if it didn't reboot automatically, then head over to your EC2 instance.
+<pre>
+ sudo reboot
+</pre>
+
+In your EC2 instance click on the instance ID then scroll down and click on the Security tab. Scroll down to security groups and click on the launch wizard link, this will take you to the launch wizard page. In the launch wizard page scroll down and click "Edit inbound rules", in this page you're going to create three new rules. For the first rule click on type and select "Custom TCP", for port range enter 64295, this is the port that you'll use to connect to your instance., and for source select "My IP". For rule two do the same thing but change the port number to 64297, this is the port to access your dashboards. For the final rule make the port range 0-64000 to allow attackers access to your honeypots, and make the source "Anywhere-IPv4". These rules will allow attackers to interact with the honeypots while keeping your instance safe, and still allowing you to log in.
+
+
