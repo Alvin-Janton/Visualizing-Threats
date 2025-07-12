@@ -83,5 +83,6 @@ At the warning page, click "Advanced" then click continue to website. Enter your
 Click on Kibana to access your dashboard and here you can get visual images on data regarding all of your honeypots like the number of attacks, a dynamic attack map, source IPs, operating system and much more.
 ![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-06-26%20170517.png?raw=true)
 
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-06-26%20172924.png?raw=true)
 
-
+You can click on the search bar and enter the name of specific honeypots that you want to see, for example if you type in Cowrie you can see information regarding attacks, and you can even see the most common command line input from the attackers.
