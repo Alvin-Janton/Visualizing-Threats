@@ -87,3 +87,5 @@ Click on Kibana to access your dashboard and here you can get visual images on d
 
 You can click on the search bar and enter the name of specific honeypots that you want to see, for example if you type in Cowrie you can see information regarding attacks, and you can even see the most common command line input from the attackers.
 ![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-06-26%20172321.png?raw=true)
+
+For the final step in this project, go to your EC2 instances dashboard click on your instance and select terminate to delete your instance.
