@@ -38,8 +38,20 @@ Once you verify that ElasticSearch, Kibana, and nginx are working run the comman
 </pre>
 
 If you see anything except what is shown in the image below, shut the application down, and restart docker.
+![Kibana Screenshot](https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-12%20155452.png?raw=true)
 
-https://github.com/Alvin-Janton/Visualizing-Threats/blob/main/images/Screenshot%202025-07-12%20155452.png
+Run the following commands to restart all docker containers
+<pre>
+  sudo docker-compose down
+  sudo docker-compose up
+</pre>
+
+If everything is working, then run this command in your terminal to see if nginx is listening on port 64297
+<pre>
+  sudo ss -tuln | grep :64297
+</pre>
+
+If you see the output below then nginx is up and working and you can go to your EC2 public IPv4 address.
 
 
 ## 2. Can't Log In to Kibana
